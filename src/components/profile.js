@@ -40,6 +40,6 @@ function Profile() {
     codeUrl: "build/build.wasm",
   });
 
-  return <Unity unityProvider={unityProvider} style = {{position: "absolute", top: 0, left: 0, right: 0, bottom: 0}}/>;
+  return <Unity unityProvider={unityProvider} style = {{position: "absolute", top: 0, width: "100%", left: 0, height: "100%", right: 0, bottom: 0}}/>;
 }
 export default Profile;
